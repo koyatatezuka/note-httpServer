@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,6 +7,7 @@
   <title>Add Note</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <link rel="stylesheet" media="screen" href="style.css" />
 </head>
 
@@ -24,9 +25,12 @@
       </li>
     </ul>
   </nav>
-  <div class="home-container">
-
+  <div class="toDo-container">
+  <form class="add-note" action="/addnote" method="post">
+  <textarea name="note" placeholder="write here..."></textarea>
+  <button type="submit">Post It</button>
+</form>
   </div>
 </body>
 
-</html>
+</html>`
