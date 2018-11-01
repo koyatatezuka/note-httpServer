@@ -13,6 +13,7 @@ body {
 	height: 4rem;
 	display: flex;
 	background-color: rgb(241, 166, 231);
+	width: 100%;
 }
 
 .nav-list {
@@ -106,6 +107,7 @@ body {
 	background-size: cover;
 	flex-wrap: wrap;
 	font-family: 'Permanent Marker', cursive;
+	overflow: auto;
 }
 
 .add-note {
@@ -173,6 +175,11 @@ body {
 	font-family: inherit;
 }
 
+
+/* end of toDo */
+
+/* addNote */
+
 .btn-container {
   display: flex;
 }
@@ -208,9 +215,6 @@ body {
 	color: rgb(255, 87, 87);
 }
 
-/* end of toDo */
-
-/* addNote */
 
 /* end of addNote */
 

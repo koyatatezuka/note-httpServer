@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
-  <link rel="stylesheet" media="screen" href="/style.css" />
+  <link rel="stylesheet" media="screen" href="style.css" />
 </head>
 
 <body>
@@ -27,14 +27,9 @@
   </nav>
   <div class="toDo-container">
     
-    <form class="notes" action="/todo" method="POST">
-        <textarea name="notes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat animi eius facere dolorem iusto dolore</textarea>
-      <div class="btn-container">
-        <button class="delete-btn" type="submit" name="method" value="delete" value="DELETE">delete</button>
-        <button class="update-btn" type="submit" name="method" value="put">update</button>
-      </div>
+    <div id="split"></div>
 
-    </form>
+   
   </div>
 </body>
 
