@@ -186,7 +186,7 @@ body {
 
 .notes .delete-btn {
 	padding: 0.2rem 0.4rem;
-	font-size: 1.2rem;
+	font-size: 2rem;
 	border: none;
 	background-color: rgb(255, 255, 70);
 	color: rgb(146, 143, 143);
@@ -197,7 +197,7 @@ body {
 
 .notes .update-btn {
 	padding: 0.2rem 0.4rem;
-	font-size: 1.2rem;
+	font-size: 2rem;
 	border: none;
 	background-color: rgb(255, 255, 70);
 	color: rgb(146, 143, 143);
