@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = require('./lib/server');
 
-const PORT = 3000
+const PORT =  process.env.PORT || 3000;
 
 // instatiating http server
 const httpServer = http.createServer((req, res) => {
